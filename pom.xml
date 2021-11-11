@@ -112,7 +112,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>monopoly.monopoly/monopoly.monopoly.HelloApplication</mainClass>
+                            <mainClass>monopoly.monopoly/monopoly.monopoly.exemple.Client</mainClass>
                         </configuration>
                     </execution>
                 </executions>

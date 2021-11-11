@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!-- Plateau globale -->
+<!--
+
+<children>
+   <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../images/logo_crypto/tezos.png"/>
+      </image>
+   </ImageView>
+</children>
+
+-->
+
+<HBox prefHeight="880.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <!-- Partie du gauche -->
+      <HBox prefHeight="880.0" prefWidth="125">
+         <children>
+            <VBox prefHeight="880" prefWidth="125">
+                  <children>
+                     <!-- Case carré -->
+                     <VBox prefHeight="125" prefWidth="125" style="-fx-border-color: black;-fx-border-width:3 1.5 1.5 3;" />
+
+                     <!-- Case Propriétaire -->
+                     <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                        <children>
+                           <HBox prefHeight="70" prefWidth="125">
+                              <children>
+                                 <HBox prefHeight="70" prefWidth="90" />
+                                 <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 0 0 3; -fx-background-color: orange;" />
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+                     <!-- Case Propriétaire -->
+                     <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                        <children>
+                           <HBox prefHeight="70" prefWidth="125">
+                              <children>
+                                 <HBox prefHeight="70" prefWidth="90" />
+                                 <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 0 0 3;-fx-background-color: orange;" />
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- Carte de communauté  -->
+                     <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;" />
+
+                     <!-- Case Propriétaire -->
+                     <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                        <children>
+                           <HBox prefHeight="70" prefWidth="125">
+                              <children>
+                                 <HBox prefHeight="70" prefWidth="90">
+
+                                 </HBox>
+                                 <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 0 0 3;-fx-background-color: orange;" />
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- Carte gare -->
+                     <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;" />
+
+                     <!-- Case Propriétaire -->
+                     <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                        <children>
+                           <HBox prefHeight="70" prefWidth="125">
+                              <children>
+                                 <HBox prefHeight="70" prefWidth="90">
+
+                                 </HBox>
+                                 <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 0 0 3;-fx-background-color: magenta;" />
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- Case Propriétaire -->
+                     <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                        <children>
+                           <HBox prefHeight="70" prefWidth="125">
+                              <children>
+                                 <HBox prefHeight="70" prefWidth="90">
+
+                                 </HBox>
+                                 <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 0 0 3;-fx-background-color: magenta;" />
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- Compagnie de l'électricité -->
+                     <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;" />
+
+                     <!-- Case Propriétaire -->
+                     <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                        <children>
+                           <HBox prefHeight="70" prefWidth="125">
+                              <children>
+                                 <HBox prefHeight="70" prefWidth="90">
+                                    <children>
+                                       <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70" prefWidth="15.0">
+                                          <children>
+                                             <Text rotate="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$ 140" translateX="-2.0" translateY="28.0" />
+                                          </children>
+                                       </HBox>
+                                       <HBox prefHeight="70" prefWidth="90">
+                                          <children>
+                                             <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" rotate="90.0" style="-fx-translate-x: 4;-fx-rotate: 90; -fx-translate-y: 10">
+                                                <image>
+                                                   <Image url="@../images/logo_crypto/xem.png" />
+                                                </image>
+                                             </ImageView>
+                                          </children>
+                                       </HBox>
+                                       <HBox maxHeight="-Infinity" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="70" prefWidth="10.0">
+                                          <children>
+                                             <Text rotate="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="XEM" translateX="-12.0" translateY="28.0" />
+                                          </children>
+                                       </HBox>
+                                    </children>
+                                 </HBox>
+                                 <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black; -fx-border-width: 0 0 0 3; -fx-background-color: magenta;" />
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+
+                     <!-- Case carré -->
+                     <VBox prefHeight="125" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 1.5 3 3;" />
+                  </children>
+            </VBox>
+         </children>
+      </HBox>
+
+      <!-- Partie du milieu -->
+      <HBox prefHeight="880" prefWidth="630">
+         <children>
+            <VBox prefHeight="880" prefWidth="630">
+               <children>
+                  <!-- Partie haut -->
+                  <VBox prefHeight="125" prefWidth="630">
+                     <children>
+                        <HBox prefHeight="125" prefWidth="630">
+                           <children>
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;-fx-rotate: 180" text="\$ 220" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 10;-fx-rotate: 180">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/polygon.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 6;-fx-rotate: 180" text="POLYGON" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 0 0 0; -fx-background-color: red;" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+
+                              <!-- Case chance -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;" />
+
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;-fx-rotate: 180" text="\$ 220" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 10;-fx-rotate: 180">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/1inch.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 15;-fx-rotate: 180" text="1INCH" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 0 0 0;-fx-background-color: red;" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;-fx-rotate: 180" text="\$ 240" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 10;-fx-rotate: 180">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/avalanche.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 0;-fx-rotate: 180" text="AVALANCHE" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 0 0 0; -fx-background-color: red;" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+
+                              <!-- Case Gare -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;" />
+
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;-fx-rotate: 180" text="\$ 260" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 10;-fx-rotate: 180">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/chainlink.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 4;-fx-rotate: 180" text="CHAINLINK" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 0 0 0; -fx-background-color: yellow;" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;-fx-rotate: 180" text="\$ 260" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 10;-fx-rotate: 180">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/polkadot.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 4;-fx-rotate: 180" text="POLKADOT" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 0 0 0; -fx-background-color: yellow;" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+
+                              <!-- Case Compagnie des eaux -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;" />
+
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;-fx-rotate: 180" text="\$ 280" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 10;-fx-rotate: 180">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/uniswap.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 4;-fx-rotate: 180" text="UNISWAP" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 0 0 0; -fx-background-color: yellow;" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+
+                  <!-- Milieu -->
+                  <VBox prefHeight="630" prefWidth="630" />
+
+                  <!-- Partie bas -->
+                  <VBox prefHeight="125" prefWidth="630">
+                     <children>
+                        <HBox prefHeight="125" prefWidth="630">
+                           <children>
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:0 0 3 0;-fx-background-color: deepskyblue;" />
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 18;" text="TRON" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 10;">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/tron.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;" text="\$ 120" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:0 0 3 0;-fx-background-color: deepskyblue;" />
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 22;" text="REEF" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 10">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/reef.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;" text="\$ 100" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+
+                              <!-- Case Chance -->
+                              <VBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width: 3 1.5 3 1.5;" />
+
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:0 0 3 0;-fx-background-color: deepskyblue;" />
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 12;" text="VeChain" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 8">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/vechain.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;" text="\$ 100" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+
+                              <!-- Case Gare -->
+                              <VBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width: 3 1.5 3 1.5;" />
+
+                              <!-- Case Impot -->
+                              <VBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width: 3 1.5 3 1.5;" />
+
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:0 0 3 0;-fx-background-color: brown;" />
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 2;" text="DOGECOIN" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 8">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/dogecoin.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;" text="\$ 60" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+
+                              <!-- Case Communautaire -->
+                              <VBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width: 3 1.5 3 1.5;" />
+
+                              <!-- Case Propriétaire -->
+                              <HBox prefHeight="125" prefWidth="70" style="-fx-border-color: black;-fx-border-width:3 1.5 3 1.5;">
+                                 <children>
+                                    <VBox prefHeight="70" prefWidth="125">
+                                       <children>
+                                          <VBox prefHeight="35" prefWidth="70" style="-fx-border-color: black;-fx-border-width:0 0 3 0;-fx-background-color: brown;" />
+                                          <VBox prefHeight="90" prefWidth="70">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 5;" text="SHIBA INU" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                                <ImageView fitHeight="50" fitWidth="70" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../images/logo_crypto/shiba_inu.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 20;" text="\$ 60" textAlignment="CENTER">
+                                                   <font>
+                                                      <Font name="Futura Medium" size="11.0" />
+                                                   </font>
+                                                </Text>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+
+      <!--  Partie de droite -->
+      <HBox prefHeight="880" prefWidth="125">
+         <children>
+            <VBox prefHeight="880" prefWidth="125">
+               <children>
+                  <!-- Case carré -->
+                  <VBox prefHeight="125" prefWidth="125" style="-fx-border-color: black;-fx-border-width:3 3 1.5 1.5;" />
+
+                  <!-- Case Propriétaire -->
+                  <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                     <children>
+                        <HBox prefHeight="70" prefWidth="125">
+                           <children>
+                              <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 3 0 0;-fx-background-color: green;" />
+                              <HBox prefHeight="70" prefWidth="90" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+
+                  <!-- Case Propriétaire -->
+                  <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                     <children>
+                        <HBox prefHeight="70" prefWidth="125">
+                           <children>
+                              <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 3 0 0;-fx-background-color: green;" />
+                              <HBox prefHeight="70" prefWidth="90" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+
+                  <!-- Case communautaire -->
+                  <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;" />
+
+                  <!-- Case Propriétaire -->
+                  <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                     <children>
+                        <HBox prefHeight="70" prefWidth="125">
+                           <children>
+                              <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 3 0 0;-fx-background-color: green;" />
+                              <HBox prefHeight="70" prefWidth="90" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+
+                  <!-- Case Gare -->
+                  <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;" />
+
+                  <!-- Case Chance -->
+                  <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;" />
+
+                  <!-- Case Propriétaire -->
+                  <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                     <children>
+                        <HBox prefHeight="70" prefWidth="125">
+                           <children>
+                              <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 3 0 0;-fx-background-color: blue;" />
+                              <HBox prefHeight="70" prefWidth="90" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+
+                  <!-- Case Taxe -->
+                  <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;" />
+
+                  <!-- Case Propriétaire -->
+                  <VBox prefHeight="70" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 1.5 3;">
+                     <children>
+                        <HBox prefHeight="70" prefWidth="125">
+                           <children>
+                              <HBox prefHeight="70" prefWidth="35" style="-fx-border-color: black;-fx-border-width:0 3 0 0;-fx-background-color: blue;" />
+                              <HBox prefHeight="70" prefWidth="90" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+
+                  <!-- Case Départ -->
+                  <VBox prefHeight="125" prefWidth="125" style="-fx-border-color: black;-fx-border-width:1.5 3 3 1.5;" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</HBox>

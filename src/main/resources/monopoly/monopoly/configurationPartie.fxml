@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="monopoly.monopoly.plateau.controllers.ControllerConfigurationPartie">
+   <children>
+      <ImageView fitHeight="386.0" fitWidth="600.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/menu/fond.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="238.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenu au monopoly" />
+      <Text fx:id="texte" layoutX="32.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de joueur :" />
+      <ChoiceBox fx:id="choixNombreJoueur" layoutX="53.0" layoutY="146.0" prefWidth="150.0">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:value="2" />
+               <String fx:value="3" />
+               <String fx:value="4" />
+            </FXCollections>
+         </items>
+      </ChoiceBox>
+      <Button layoutX="451.0" layoutY="147.0" mnemonicParsing="false" onMouseClicked="#validerFormulaire" text="Button" />
+   </children>
+</Pane>
